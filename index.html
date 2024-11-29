@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather-app</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter city name">
+            <button><span class="material-symbols-outlined">search</span></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+
+        <div class="weather">
+            <img class="weather-icon" src="icons8-rain-100.png" alt="">
+            <h2 class="temprature">22°C</h2>
+            <h2 class="city">New York</h2>
+
+            <div class="detail">
+                <div class="col">
+                    <img src="icons8-humidity-48.png" alt="">
+                    <div>
+                        <p class="humidity">53%</p>
+                        <p>humidity</p>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <img src="icons8-wind-48.png" alt="">
+                    <div>
+                        <p class="wind">5.29 km/h</p>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
